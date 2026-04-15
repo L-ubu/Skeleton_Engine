@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "settings": {
+    "camera_index": 0,
+    "default_dwell_ms": 300,
+    "default_cooldown_ms": 500,
+    "confidence_threshold": 0.7,
+    "show_debug": true,
+    "toggle_hotkey": "cmd+shift+g",
+    "start_enabled": true
+  },
+  "gestures": {
+    "open_palm": {
+      "action": { "type": "keypress", "keys": "cmd+shift+3" },
+      "dwell_ms": 400,
+      "cooldown_ms": 2000
+    },
+    "fist": {
+      "action": { "type": "keypress", "keys": "cmd+w" },
+      "dwell_ms": 400,
+      "cooldown_ms": 800
+    },
+    "thumbs_up": {
+      "action": {
+        "type": "macro",
+        "steps": [
+          { "type": "keypress", "keys": "cmd+a" },
+          { "delay_ms": 100 },
+          { "type": "keypress", "keys": "cmd+c" }
+        ]
+      }
+    },
+    "peace": {
+      "action": { "type": "keypress", "keys": "cmd+tab" }
+    },
+    "point": {
+      "action": { "type": "mouse_click", "button": "left" }
+    },
+    "rock": {
+      "action": { "type": "keypress", "keys": "space" },
+      "cooldown_ms": 500
+    }
+  },
+  "continuous": {
+    "pinch_distance:left": {
+      "action": { "type": "brightness" },
+      "smoothing": 0.3,
+      "dead_zone": 0.03,
+      "update_interval_ms": 200,
+      "activation_ms": 800,
+      "invert": false
+    },
+    "pinch_distance:right": {
+      "action": { "type": "volume" },
+      "smoothing": 0.3,
+      "dead_zone": 0.03,
+      "update_interval_ms": 200,
+      "activation_ms": 800,
+      "invert": false
+    }
+  }
+}
