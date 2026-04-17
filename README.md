@@ -1,6 +1,6 @@
 <div align="center">
 
-# `Skaleton_Comand`
+# Skeleton Engine
 
 ### Control your Mac with hand gestures
 
@@ -29,8 +29,8 @@
 
 ```bash
 # Clone
-git clone https://github.com/L-ubu/Skaleton_Comand.git
-cd Skaleton_Comand
+git clone https://github.com/L-ubu/Skeleton_Engine.git
+cd Skeleton_Engine
 
 # Create virtual environment
 python3 -m venv .venv
